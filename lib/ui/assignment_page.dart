@@ -19,6 +19,7 @@ class _AssignmentPageState extends State<AssignmentPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Assignment'),
+        automaticallyImplyLeading: false,
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20.0),
